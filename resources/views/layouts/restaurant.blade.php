@@ -9,27 +9,27 @@
 		<!-- CSS
         ================================================ -->
         <!-- Owl Carousel -->
-		<link rel="stylesheet" href='{{ asset("resto/css/owl.carousel.css") }}'>
+		<link rel="stylesheet" href="/resto/css/owl.carousel.css">
         <!-- bootstrap.min css -->
-		<link rel="stylesheet" href='{{ asset("resto/css/bootstrap.min.css") }}'>
+		<link rel="stylesheet" href="/resto/css/bootstrap.min.css">
         <!-- Font-awesome.min css -->
-		<link rel="stylesheet" href='{{ asset("resto/css/font-awesome.min.css") }}'>
+		<link rel="stylesheet" href="/resto/css/font-awesome.min.css">
         <!-- Main Stylesheet -->
-        <link rel="stylesheet" href='{{ asset("resto/css/animate.min.css") }}'>
+        <link rel="stylesheet" href="/resto/css/animate.min.css">
 
-		<link rel="stylesheet" href='{{ asset("resto/css/main.css") }}'>
+		<link rel="stylesheet" href="/resto/css/main.css">
         <!-- Responsive Stylesheet -->
-		<link rel="stylesheet" href='{{ asset("resto/css/responsive.css") }}''>
+		<link rel="stylesheet" href="/resto/css/responsive.css">
 		<!-- Js -->
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"></script>
-    <script src='{{ asset("resto/js/jquery.nav.js") }}'></script>
-    <script src='{{ asset("resto/js/jquery.sticky.js") }}'></script>
-    <script src='{{ asset("resto/js/bootstrap.min.js") }}'></script>
-    <script src='{{ asset("resto/js/plugins.js") }}'></script>
-    <script src='{{ asset("resto/js/wow.min.js") }}'></script>
-    <script src='{{ asset("resto/js/main.js") }}'></script>
+    <script src="/resto/js/jquery.nav.js"></script>
+    <script src="/resto/js/jquery.sticky.js"></script>
+    <script src="/resto/js/bootstrap.min.js"></script>
+    <script src="/resto/js/plugins.js"></script>
+    <script src="/resto/js/wow.min.js"></script>
+    <script src="/resto/js/main.js"></script>
 	</head>
 	<body>
 	<!--
