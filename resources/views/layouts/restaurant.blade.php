@@ -9,34 +9,34 @@
 		<!-- CSS
         ================================================ -->
         <!-- Owl Carousel -->
-		<link rel="stylesheet" href='{{ asset("resto/css/owl.carousel.css") }}'>
+		<link rel="stylesheet" href='{{ secure_asset("resto/css/owl.carousel.css") }}'>
         <!-- bootstrap.min css -->
-		<link rel="stylesheet" href='{{ asset("resto/css/bootstrap.min.css") }}'>
+		<link rel="stylesheet" href='{{ secure_asset("resto/css/bootstrap.min.css") }}'>
         <!-- Font-awesome.min css -->
-		<link rel="stylesheet" href='{{ asset("resto/css/font-awesome.min.css") }}'>
+		<link rel="stylesheet" href='{{ secure_asset("resto/css/font-awesome.min.css") }}'>
         <!-- Main Stylesheet -->
-        <link rel="stylesheet" href='{{ asset("resto/css/animate.min.css") }}'>
+        <link rel="stylesheet" href='{{ secure_asset("resto/css/animate.min.css") }}'>
 
-		<link rel="stylesheet" href='{{ asset("resto/css/main.css") }}'>
+		<link rel="stylesheet" href='{{ secure_asset("resto/css/main.css") }}'>
         <!-- Responsive Stylesheet -->
-		<link rel="stylesheet" href='{{ asset("resto/css/responsive.css") }}''>
+		<link rel="stylesheet" href='{{ secure_asset("resto/css/responsive.css") }}''>
 		<!-- Js -->
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"></script>
-    <script src='{{ asset("resto/js/jquery.nav.js") }}'></script>
-    <script src='{{ asset("resto/js/jquery.sticky.js") }}'></script>
-    <script src='{{ asset("resto/js/bootstrap.min.js") }}'></script>
-    <script src='{{ asset("resto/js/plugins.js") }}'></script>
-    <script src='{{ asset("resto/js/wow.min.js") }}'></script>
-    <script src='{{ asset("resto/js/main.js") }}'></script>
+    <script src='{{ secure_asset("resto/js/jquery.nav.js") }}'></script>
+    <script src='{{ secure_asset("resto/js/jquery.sticky.js") }}'></script>
+    <script src='{{ secure_asset("resto/js/bootstrap.min.js") }}'></script>
+    <script src='{{ secure_asset("resto/js/plugins.js") }}'></script>
+    <script src='{{ secure_asset("resto/js/wow.min.js") }}'></script>
+    <script src='{{ secure_asset("resto/js/main.js") }}'></script>
 	</head>
 	<body>
 	<!--
 	header-img start 
 	============================== -->
     <section id="hero-area">
-      <img class="img-responsive" width="1920px" height="699px" src='{{ asset("resto/images/header.jpg") }}' alt="">
+      <img class="img-responsive" width="1920px" height="699px" src='{{ secure_asset("resto/images/header.jpg") }}' alt="">
     </section>
 	<!--
     Header start 
@@ -139,16 +139,16 @@
                             <h3>PHOTO <span>STREAM</span></h3>
                             <ul>
                                 <li>
-                                    <a href="#"><img src='{{ asset("resto/images/photo/photo-1.jpg") }}' width="100px"></a>
+                                    <a href="#"><img src='{{ secure_asset("resto/images/photo/photo-1.jpg") }}' width="100px"></a>
                                 </li>
                                 <li>
-                                    <a href="#"><img src='{{ asset("resto/images/photo/photo-2.jpg") }}' width="100px"></a>
+                                    <a href="#"><img src='{{ secure_asset("resto/images/photo/photo-2.jpg") }}' width="100px"></a>
                                 </li>
                                 <li>
-                                    <a href="#"><img src='{{ asset("resto/images/photo/photo-3.jpg") }}' width="100px"></a>
+                                    <a href="#"><img src='{{ secure_asset("resto/images/photo/photo-3.jpg") }}' width="100px"></a>
                                 </li>
                                 <li>
-                                    <a href="#"><img src='{{ asset("resto/images/photo/photo-4.jpg") }}' width="100px"></a>
+                                    <a href="#"><img src='{{ secure_asset("resto/images/photo/photo-4.jpg") }}' width="100px"></a>
                                 </li>
                             </ul>
                         </div>
