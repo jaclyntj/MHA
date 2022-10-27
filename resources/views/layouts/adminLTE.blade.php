@@ -8,18 +8,18 @@
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href='{{ secure_asset("adminLTE/plugins/fontawesome-free/css/all.min.css") }}''>
+  <link rel="stylesheet" href='{{ asset("adminLTE/plugins/fontawesome-free/css/all.min.css") }}''>
   <!-- overlayScrollbars -->
-  <link rel="stylesheet" href='{{ secure_asset("adminLTE/plugins/overlayScrollbars/css/OverlayScrollbars.min.css") }}'>
+  <link rel="stylesheet" href='{{ asset("adminLTE/plugins/overlayScrollbars/css/OverlayScrollbars.min.css") }}'>
   <!-- Theme style -->
-  <link rel="stylesheet" href='{{ secure_asset("adminLTE/dist/css/adminlte.min.css") }}'>
+  <link rel="stylesheet" href='{{ asset("adminLTE/dist/css/adminlte.min.css") }}'>
 </head>
 <body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
 <div class="wrapper">
 
   <!-- Preloader -->
   <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__wobble" src='{{ secure_asset("adminLTE/dist/img/AdminLTELogo.png") }}' alt="AdminLTELogo" height="60" width="60">
+    <img class="animation__wobble" src='{{ asset("adminLTE/dist/img/AdminLTELogo.png") }}' alt="AdminLTELogo" height="60" width="60">
   </div>
 
   <!-- Navbar -->
@@ -135,7 +135,7 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src='{{ secure_asset("adminLTE/dist/img/avatar5.png") }}' class="img-circle elevation-2" alt="User Image">
+          <img src='{{ asset("adminLTE/dist/img/avatar5.png") }}' class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">{{auth()->user()->name}}</a>
@@ -162,37 +162,37 @@
           <li class="nav-item menu-open">
             <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a class="nav-link" href={{ secure_asset("/admin/menu") }}>
+                  <a class="nav-link" href={{ asset("/admin/menu") }}>
                     <i class="far fa-circle nav-icon"></i>
                     <p>Menu</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href={{ secure_asset("admin/artikel") }}>
+                  <a class="nav-link" href={{ asset("admin/artikel") }}>
                     <i class="far fa-circle nav-icon"></i>
                     <p>Artikel</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href={{ secure_asset("/admin/user") }}>
+                  <a class="nav-link" href={{ asset("/admin/user") }}>
                     <i class="far fa-circle nav-icon"></i>
                     <p>Daftar Pengguna</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href={{ secure_asset("admin/daftar-pesanan") }}>
+                  <a class="nav-link" href={{ asset("admin/daftar-pesanan") }}>
                     <i class="far fa-circle nav-icon"></i>
                     <p>Daftar Pesanan</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href={{ secure_asset("admin/daftar-reservasi") }}>
+                  <a class="nav-link" href={{ asset("admin/daftar-reservasi") }}>
                     <i class="far fa-circle nav-icon"></i>
                     <p>Daftar Reservasi</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href={{ secure_asset("admin/daftar-pembayaran") }}>
+                  <a class="nav-link" href={{ asset("admin/daftar-pembayaran") }}>
                     <i class="far fa-circle nav-icon"></i>
                     <p>Daftar Pembayaran</p>
                     </a>
@@ -256,22 +256,22 @@
 
 <!-- REQUIRED SCRIPTS -->
 <!-- jQuery -->
-<script src='{{ secure_asset("adminLTE/plugins/jquery/jquery.min.js") }}'></script>
+<script src='{{ asset("adminLTE/plugins/jquery/jquery.min.js") }}'></script>
 <!-- Bootstrap -->
-<script src='{{ secure_asset("adminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js") }}'></script>
+<script src='{{ asset("adminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js") }}'></script>
 <!-- overlayScrollbars -->
-<script src='{{ secure_asset("adminLTE/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js") }}'></script>
+<script src='{{ asset("adminLTE/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js") }}'></script>
 <!-- AdminLTE App -->
-<script src='{{ secure_asset("adminLTE/dist/js/adminlte.js") }}'></script>
+<script src='{{ asset("adminLTE/dist/js/adminlte.js") }}'></script>
 
 <!-- PAGE PLUGINS -->
 <!-- jQuery Mapael -->
-<script src='{{ secure_asset("adminLTE/plugins/jquery-mousewheel/jquery.mousewheel.js") }}'></script>
-<script src='{{ secure_asset("adminLTE/plugins/raphael/raphael.min.js") }}'></script>
-<script src='{{ secure_asset("adminLTE/plugins/jquery-mapael/jquery.mapael.min.js") }}'></script>
-<script src='{{ secure_asset("adminLTE/plugins/jquery-mapael/maps/usa_states.min.js") }}'></script>
+<script src='{{ asset("adminLTE/plugins/jquery-mousewheel/jquery.mousewheel.js") }}'></script>
+<script src='{{ asset("adminLTE/plugins/raphael/raphael.min.js") }}'></script>
+<script src='{{ asset("adminLTE/plugins/jquery-mapael/jquery.mapael.min.js") }}'></script>
+<script src='{{ asset("adminLTE/plugins/jquery-mapael/maps/usa_states.min.js") }}'></script>
 <!-- ChartJS -->
-<script src='{{ secure_asset("adminLTE/plugins/chart.js/Chart.min.js") }}'></script>
+<script src='{{ asset("adminLTE/plugins/chart.js/Chart.min.js") }}'></script>
 
 </body>
 </html>
