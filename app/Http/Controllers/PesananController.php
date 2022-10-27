@@ -54,7 +54,7 @@ class PesananController extends Controller
 
     public function pembayaran() {
         // Set your Merchant Server Key
-        \Midtrans\Config::$serverKey = 'SB-Mid-server-1V8FLBmeTzhxiD6o_GYwqGK2';
+        \Midtrans\Config::$serverKey = 'SB-Mid-server-KtmxscpPADUFEGnmTMV8lCrX';
         // Set to Development/Sandbox Environment (default). Set to true for Production Environment (accept real transaction).
         \Midtrans\Config::$isProduction = false;
         // Set sanitization on (default)
