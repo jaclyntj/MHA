@@ -92,6 +92,9 @@
                                                         <h2>Opening Hours</h2><hr>
                                                         <p>Monday to Saturday: 06:30 AM - 02:30 PM</p>
                                                         <p>Sunday: 06:30 AM - 01:00 PM</p>
+                                                        <p></p>
+                                                        <p>Notes:</p>
+                                                        <p>Only accepting reservations up to 12:59 PM.</p>
                                                     </div>
                                                 </div>
                                             </div>
