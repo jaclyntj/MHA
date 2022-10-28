@@ -15,7 +15,7 @@
         @foreach($pembayaran as $item)
             <tr>
                 <td>{{ $loop->iteration }}</td>
-                <td>{{ $item->id }}</td><td>{{ $item->nama }}</td><td>{{ $item->status }}</td><td>{{ $item->order_id }}</td><td>{{ $item->payment_type }}</td><td>{{ $item->gross_amount }}</td>
+                <td>{{ $item->id }}</td><td>{{ $item->nama }}</td><td>{{ $item->status }}</td><td>{{ $item->id_pesanan }}</td><td>{{ $item->payment_type }}</td><td>{{ $item->gross_amount }}</td>
             </tr>
         @endforeach
         </tbody>
