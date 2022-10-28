@@ -52,7 +52,7 @@
                                 </div>
                                 @else
                                 <div class="blog-img">
-                                    <img src="/image/{{ $item->gambar }}" width="285px" height="300px">
+                                    <img src="/public/image/{{ $item->gambar }}" width="285px" height="300px">
                                 </div>
                                 @endif
                                 <div class="content-right">
