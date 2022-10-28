@@ -15,7 +15,7 @@ class ReservasiController extends Controller
         $validator = Validator::make($request->all(),[
             'nama' => 'required',
             'tanggal' => 'required|after_or_equal:today',
-            'waktu' => 'required|after:06:30|before:13:00',
+            'waktu' => 'required|after:06:30|before:12:00',
             'jumlah_pax' => 'required']);
         
         if ($validator->fails()) {

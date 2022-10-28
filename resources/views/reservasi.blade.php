@@ -94,7 +94,7 @@
                                                         <p>Sunday: 06:30 AM - 01:00 PM</p>
                                                         <p></p>
                                                         <p>Notes:</p>
-                                                        <p>Only accepting reservations up to 12:59 PM.</p>
+                                                        <p>Only accepting reservations up to 12:00 PM.</p>
                                                     </div>
                                                 </div>
                                             </div>
