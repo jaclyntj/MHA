@@ -50,3 +50,4 @@ Route::post('tagihan', 'App\Http\Controllers\PesananController@tagihan');
 Route::get('pembayaran', 'App\Http\Controllers\PesananController@pembayaran');
 Route::post('/pembayaran', 'App\Http\Controllers\PesananController@post_pembayaran');
 Route::post('/admin/control', 'App\Http\Controllers\ReservasiController@control');
+Route::post('/admin/status', 'App\Http\Controllers\ReservasiController@status');

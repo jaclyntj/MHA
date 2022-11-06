@@ -9,7 +9,7 @@
                     <div class="card-header">Menu</div>
                     <div class="card-body">
                         <a href="{{ url('/admin/menu/create') }}" class="btn btn-success btn-sm" title="Tambah Menu">
-                            <i class="fa fa-plus" aria-hidden="true"></i> Add New
+                            <i class="fa fa-plus" aria-hidden="true"></i> Tambah Baru
                         </a>
 
                         <form method="GET" action="{{ url('/admin/menu') }}" accept-charset="UTF-8" class="form-inline my-2 my-lg-0 float-right" role="search">

@@ -9,7 +9,7 @@
                     <div class="card-header">Artikel</div>
                     <div class="card-body">
                         <a href="{{ url('/admin/artikel/create') }}" class="btn btn-success btn-sm" title="Add New Artikel">
-                            <i class="fa fa-plus" aria-hidden="true"></i> Add New
+                            <i class="fa fa-plus" aria-hidden="true"></i> Tambah Baru
                         </a>
 
                         <form method="GET" action="{{ url('/admin/artikel') }}" accept-charset="UTF-8" class="form-inline my-2 my-lg-0 float-right" role="search">

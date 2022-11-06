@@ -65,7 +65,7 @@ class ArtikelController extends Controller
         
         Artikel::create($requestData);
 
-        return redirect('admin/artikel')->with('flash_message', 'Artikel added!');
+        return redirect('admin/artikel')->with('flash_message', 'Artikel berhasil ditambah!');
     }
 
     /**
@@ -115,7 +115,7 @@ class ArtikelController extends Controller
         $artikel = Artikel::findOrFail($id);
         $artikel->update($requestData);
 
-        return redirect('admin/artikel')->with('flash_message', 'Artikel updated!');
+        return redirect('admin/artikel')->with('flash_message', 'Artikel berhasil diupdate!');
     }
 
     /**
@@ -129,6 +129,6 @@ class ArtikelController extends Controller
     {
         Artikel::destroy($id);
 
-        return redirect('admin/artikel')->with('flash_message', 'Artikel deleted!');
+        return redirect('admin/artikel')->with('flash_message', 'Artikel berhasil dihapus!');
     }
 }

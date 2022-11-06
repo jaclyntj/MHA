@@ -74,7 +74,7 @@ class MenuController extends Controller
         
         Menu::create($requestData);
 
-        return redirect('admin/menu')->with('flash_message', 'Menu added!');
+        return redirect('admin/menu')->with('flash_message', 'Menu berhasil ditambah!');
     }
 
     /**
@@ -124,7 +124,7 @@ class MenuController extends Controller
         $menu = Menu::findOrFail($id);
         $menu->update($requestData);
 
-        return redirect('admin/menu')->with('flash_message', 'Menu updated!');
+        return redirect('admin/menu')->with('flash_message', 'Menu berhasil diupdate!');
     }
 
     /**
@@ -138,6 +138,6 @@ class MenuController extends Controller
     {
         Menu::destroy($id);
 
-        return redirect('admin/menu')->with('flash_message', 'Menu deleted!');
+        return redirect('admin/menu')->with('flash_message', 'Menu berhasil dihapus!');
     }
 }

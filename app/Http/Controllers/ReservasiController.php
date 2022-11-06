@@ -34,8 +34,9 @@ class ReservasiController extends Controller
                     $reservasi->tanggal = $request->tanggal;
                     $reservasi->waktu = $request->waktu;
                     $reservasi->jumlah_pax = $request->jumlah_pax;
+                    $reservasi->status = 'pending';
                     $reservasi->save();
-                    return redirect('/reservasi')->with('success','Reservasi berhasil dilakukan!');
+                    return redirect('/reservasi')->with('success','Permintaan reservasi sudah diterima. Silakan tunggu konfirmasi dari pihak restoran.');
                 }
             }
         }
@@ -74,5 +75,25 @@ class ReservasiController extends Controller
             }
             return redirect('/admin/daftar-reservasi')->with('success', 'Menerima reservasi.');
         }
+    }
+
+    public function status(Request $request) {
+        $reservasi = Reservasi::all();
+        $idx=1;
+        foreach ($reservasi as $item) {
+            $meja = $_POST['meja'.$idx];
+            if (isset($_POST['stat'.$idx])) {
+                $item->status = 'confirmed';
+                $item->meja = $meja;
+                if (!empty($meja)) {
+                    $item->save();
+                }
+                else {
+                    return redirect('/admin/daftar-reservasi')->with('error', 'Nomor meja belum diisi.');
+                }
+            }
+            $idx++;
+        }
+        return redirect('/admin/daftar-reservasi');
     }
 }

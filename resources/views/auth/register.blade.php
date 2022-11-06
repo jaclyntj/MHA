@@ -26,6 +26,34 @@
                         </div>
 
                         <div class="row mb-4">
+                            <label for="alamat" class="col-md-4 col-form-label text-md-end">{{ __('Alamat') }}</label>
+
+                            <div class="col-md-8">
+                                <input id="alamat" type="text" class="form-control @error('alamat') is-invalid @enderror" name="alamat" value="{{ old('alamat') }}" required autocomplete="alamat" autofocus>
+
+                                @error('alamat')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+                        <div class="row mb-4">
+                            <label for="nomor" class="col-md-4 col-form-label text-md-end">{{ __('Nomor HP') }}</label>
+
+                            <div class="col-md-8">
+                                <input id="nomor" type="text" class="form-control @error('nomor') is-invalid @enderror" name="nomor" value="{{ old('nomor') }}" required autocomplete="nomor" autofocus>
+
+                                @error('nomor')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+                        <div class="row mb-4">
                             <label for="email" class="col-md-4 col-form-label text-md-end">{{ __('Alamat Email') }}</label>
 
                             <div class="col-md-8">

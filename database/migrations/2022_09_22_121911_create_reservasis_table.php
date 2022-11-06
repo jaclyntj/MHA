@@ -20,6 +20,8 @@ return new class extends Migration
             $table->date('tanggal');
             $table->time('waktu');
             $table->bigInteger('jumlah_pax');
+            $table->bigInteger('meja')->nullable();
+            $table->string('status');
             $table->timestamps();
         });
     }
