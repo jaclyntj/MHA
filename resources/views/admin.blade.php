@@ -27,7 +27,7 @@
   <div class="col-lg-4 col-6">
     <div class="small-box bg-success">
       <div class="inner">
-        <h3>{{ auth()->user()->count() }}</h3>
+        <h3>{{ auth()->user()->count()-1 }}</h3>
         <p>User Registrations</p>
       </div>
       <div class="icon">
