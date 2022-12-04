@@ -89,12 +89,12 @@
                                                 <div class="col-lg-4 col-md-6 col-xs-12">
                                                     <!-- Message -->
                                                     <div class="right-text">
-                                                        <h2>Opening Hours</h2><hr>
-                                                        <p>Monday to Saturday: 06:30 AM - 02:30 PM</p>
-                                                        <p>Sunday: 06:30 AM - 01:00 PM</p>
+                                                        <h2>Jam Buka</h2><hr>
+                                                        <p>Hari Senin s/d Sabtu: 06:30 - 14:30</p>
+                                                        <p>Hari Minggu: 06:30 - 13:00</p>
                                                         <p></p>
-                                                        <p>Notes:</p>
-                                                        <p>Only accepting reservations up to 12:00 PM.</p>
+                                                        <b>Notes:</b>
+                                                        <p>Hanya menerima reservasi sampai jam 12 siang</p>
                                                     </div>
                                                 </div>
                                             </div>
