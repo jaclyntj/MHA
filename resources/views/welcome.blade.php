@@ -34,7 +34,7 @@
                 <div class="col-md-12">
                     <div class="block">
                         <img class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms" src="images/cooker-img.png" alt="">
-                        <h1 class="heading wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms" >About <span> Mie Hokkien Akheng</span>
+                        <h1 class="heading wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms" >Tentang <span> Mie Hokkien Akheng</span>
                         </h1>
                         <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">Mie Hokkien Akheng adalah suatu bisnis keluarga yang sudah berdiri sejak tahun 1975.</br> Rumah makan ini berlokasi di Jl. Bangka No. 100/106 kota Medan dan menyediakan hidangan tionghoa mie hokkien dengan berbagai</br> pilihan topping. Hidangan ini dibuat dengan seafood segar dan daging berkualitas.</p>
                     </div>

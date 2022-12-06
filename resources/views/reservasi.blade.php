@@ -34,7 +34,7 @@
                     <div class="col-md-12">
                         <div class="block wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
                             <div class="title">
-                                <h1 style="text-align:center">Reserve <span>A Table</span></h1>
+                                <h1 style="text-align:center">Reservasi <span>Meja</span></h1>
                             </div>
                             <div class="text-content container"> 
 
@@ -52,7 +52,7 @@
                                 </div>
                             @endif
     
-                            <h3 style="text-align:center">How to reserve?</h3>
+                            <h3 style="text-align:center">Bagaimana cara melakukan reservasi?</h3>
                             <p style="text-align:center">1. Pastikan Anda sudah log in ke dalam web.</p>
                             <p style="text-align:center">2. Reservasi hanya bisa dilakukan pada hari yang sama atau hari berikutnya.</p>
                             <p style="text-align:center">3. Pastikan waktu reservasi berada di dalam jam buka rumah makan.</p>

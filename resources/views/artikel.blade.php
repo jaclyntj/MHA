@@ -34,7 +34,7 @@
                 <div class="col-md-12">
                     <div class="block wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
                         <div class="title">
-                            <center><h1>Blog: <span>Articles</span></h1></center>
+                            <center><h1>Blog: <span>Artikel</span></h1></center>
                         </div>
                         <div class="text-content container"> 
                         <div class="inner contact">

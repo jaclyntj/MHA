@@ -33,7 +33,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="block">
-                        <h1 class="heading">Our <span>Menu</span></h1>
+                        <h1 class="heading">Menu <span>Kami</span></h1>
                         <ul>
                             @if ($message = Session::get('error'))
                                 <div class="alert alert-danger alert-block">

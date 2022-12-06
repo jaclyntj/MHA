@@ -15,7 +15,7 @@
         <div class="inner">
           <?php use App\Models\Pesanan; ?>
           <h3>{{ Pesanan::all()->count() }}</h3>
-          <p>New Orders</p>
+          <p>Pesanan</p>
         </div>
         <div class="icon">
           <i class="ion ion-bag"></i>
@@ -28,7 +28,7 @@
     <div class="small-box bg-success">
       <div class="inner">
         <h3>{{ auth()->user()->count()-1 }}</h3>
-        <p>User Registrations</p>
+        <p>Pengguna</p>
       </div>
       <div class="icon">
         <i class="fas fa-users"></i>
@@ -41,7 +41,7 @@
     <div class="small-box bg-warning">
       <div class="inner">
         <h3>{{ rand(1, 50) }}</h3>
-        <p>Unique Visitors</p>
+        <p>Pengunjung Unik</p>
       </div>
       <div class="icon">
         <i class="fas fa-chart-pie"></i>
