@@ -60,7 +60,7 @@
                                     <p>{{ $item->deskripsi }}</p>
                                     <p>Rp{{ $item->harga }}</p>
                                     <p></p>
-                                    <input type="number" style="width:50px" name={{"qty".$idx}} id="qty"/>
+                                    qty: <input type="number" style="width:50px" name={{"qty".$idx}} id="qty"/>
                                     <?php
                                         $idx++;
                                     ?>

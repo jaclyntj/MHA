@@ -11,7 +11,7 @@
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
 
-                        <div class="row mb-4">
+                        <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-end">{{ __('Nama') }}</label>
 
                             <div class="col-md-8">
@@ -25,7 +25,7 @@
                             </div>
                         </div>
 
-                        <div class="row mb-4">
+                        <div class="form-group row">
                             <label for="alamat" class="col-md-4 col-form-label text-md-end">{{ __('Alamat') }}</label>
 
                             <div class="col-md-8">
@@ -39,7 +39,7 @@
                             </div>
                         </div>
 
-                        <div class="row mb-4">
+                        <div class="form-group row">
                             <label for="nomor" class="col-md-4 col-form-label text-md-end">{{ __('Nomor HP') }}</label>
 
                             <div class="col-md-8">
@@ -53,7 +53,7 @@
                             </div>
                         </div>
 
-                        <div class="row mb-4">
+                        <div class="form-group row">
                             <label for="email" class="col-md-4 col-form-label text-md-end">{{ __('Alamat Email') }}</label>
 
                             <div class="col-md-8">
@@ -67,7 +67,7 @@
                             </div>
                         </div>
 
-                        <div class="row mb-4">
+                        <div class="form-group row">
                             <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Kata Sandi') }}</label>
 
                             <div class="col-md-8">
@@ -81,11 +81,23 @@
                             </div>
                         </div>
 
-                        <div class="row mb-4">
+                        <div class="form-group row">
                             <label for="password-confirm" class="col-md-4 col-form-label text-md-end">{{ __('Konfirmasi Kata Sandi') }}</label>
 
                             <div class="col-md-8">
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-md-6">
+                                {!! NoCaptcha::display() !!}
+                                {!! NoCaptcha::renderJs() !!}
+                                @error('g-recaptcha-response')
+                                <span class="text-danger" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                                @enderror
                             </div>
                         </div>
 
